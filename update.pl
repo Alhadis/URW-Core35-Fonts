@@ -88,7 +88,7 @@ sub sortPreview {
 	my $missing = qr/[^$class]/;
 	my $output = join "", "A".."Z", " ", "a".."z", " ", "0".."9";
 	$output =~ s/$missing//g;
-	($chars = join "", map { chr } @$chars) =~ s/[A-Za-z0-9]|\P{Graph}//g;
+	($chars = join "", map { chr } @$chars) =~ s/[A-Za-z0-9]|\P{Graph}|\xAD//g;
 	return "$output $chars";
 }
 
@@ -139,7 +139,7 @@ for (@ARGV) {
 	)."\n}\n";
 
 	# Append to current HTML section
-	my $style = esc $font{styleAttr};
+	(my $style = esc $font{styleAttr}) =~ s/font-weight:\s+400;?\s*//;
 	print HTML join "", (
 		"\n\t\t<h3>$name</h3>\n\t\t",
 		($style ? qq(<p style="$style">) : "<p>"),

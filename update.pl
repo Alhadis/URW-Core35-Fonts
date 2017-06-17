@@ -93,15 +93,20 @@ sub sortPreview {
 }
 
 
-# Open each file we'll be writing to
-my $cssFile  = "";
-my $htmlFile = "";
+my $cssFile   = "";
+my $htmlFile  = "";
 GetOptions("h|html-file=s" => \$htmlFile, "c|css-file=s" => \$cssFile);
 
+# Open each file we'll be writing to
 open(CSS,   "> :encoding(UTF-8)", $cssFile)  or die "Can't open CSS file: $!";
 open(HTML, "+< :encoding(UTF-8)", $htmlFile) or die "Can't open HTML file: $!";
-while(<HTML>){ last if m/^<body[^>]*>\s*$/; }
+my $pageTitle = "Font Previews";
+while(<HTML>){
+	last if m/^<body[^>]*>\s*$/;
+	$pageTitle = esc($1) if m~^\s*<title[^>]*>\s*(.+)\s*</title>\s*$~i;
+}
 truncate *HTML, tell;
+print HTML "\t<h1>$pageTitle</h1>\n\n";
 
 my $prev = "";
 for (@ARGV) {
@@ -115,7 +120,7 @@ for (@ARGV) {
 	if($prev ne $family){
 		if($prev){
 			print CSS "\n\n";
-			print HTML "\t</article>\n\n";
+			print HTML "\t</article>\n\n\n";
 		}
 		print CSS "/* $family */\n";
 		$prev = $family;

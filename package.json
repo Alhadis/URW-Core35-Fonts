@@ -1,0 +1,23 @@
+{
+	"name": "urw-core35-fonts",
+	"version": "v0.0.0",
+	"license": "AGPL-3.0",
+	"repository": "https://github.com/Alhadis/URW-Core35-Fonts",
+	"description": "URW++ GhostScript fonts in WOFF2 format.",
+	"keywords": ["PostScript", "GhostScript", "Fonts", "Typefaces", "PDF", "Typography", "Webfonts", "Adobe"],
+	"files": ["fonts", "index.css", "COPYING"],
+	"author": {
+		"name":  "URW++ Design & Development GmbH",
+		"email": "info@urwpp.de",
+		"url":   "https://www.urwpp.de/"
+	},
+	"maintainers": [{
+		"name":  "John Gardner",
+		"email": "gardnerjohng@gmail.com",
+		"url":   "https://github.com/Alhadis"
+	}],
+	"bugs": {
+		"url":   "https://github.com/Alhadis/URW-Core35-Fonts/issues",
+		"email": "gardnerjohng@gmail.com"
+	}
+}

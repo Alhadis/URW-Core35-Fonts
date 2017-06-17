@@ -1,0 +1,241 @@
+/* C059 */
+@font-face {
+	font-family: C059;
+	font-weight: bold;
+	font-style: italic;
+	src: url("fonts/C059-BdIta.woff2") format("woff2");
+}
+@font-face {
+	font-family: C059;
+	font-weight: bold;
+	font-style: normal;
+	src: url("fonts/C059-Bold.woff2") format("woff2");
+}
+@font-face {
+	font-family: C059;
+	font-weight: normal;
+	font-style: italic;
+	src: url("fonts/C059-Italic.woff2") format("woff2");
+}
+@font-face {
+	font-family: C059;
+	font-weight: normal;
+	font-style: normal;
+	src: url("fonts/C059-Roman.woff2") format("woff2");
+}
+
+
+/* D050000L */
+@font-face {
+	font-family: D050000L;
+	font-weight: normal;
+	font-style: normal;
+	src: url("fonts/D050000L.woff2") format("woff2");
+}
+
+
+/* Nimbus Mono PS */
+@font-face {
+	font-family: "Nimbus Mono PS";
+	font-weight: bold;
+	font-style: normal;
+	src: url("fonts/NimbusMonoPS-Bold.woff2") format("woff2");
+}
+@font-face {
+	font-family: "Nimbus Mono PS";
+	font-weight: bold;
+	font-style: italic;
+	src: url("fonts/NimbusMonoPS-BoldItalic.woff2") format("woff2");
+}
+@font-face {
+	font-family: "Nimbus Mono PS";
+	font-weight: normal;
+	font-style: italic;
+	src: url("fonts/NimbusMonoPS-Italic.woff2") format("woff2");
+}
+@font-face {
+	font-family: "Nimbus Mono PS";
+	font-weight: normal;
+	font-style: normal;
+	src: url("fonts/NimbusMonoPS-Regular.woff2") format("woff2");
+}
+
+
+/* Nimbus Roman */
+@font-face {
+	font-family: "Nimbus Roman";
+	font-weight: bold;
+	font-style: normal;
+	src: url("fonts/NimbusRoman-Bold.woff2") format("woff2");
+}
+@font-face {
+	font-family: "Nimbus Roman";
+	font-weight: bold;
+	font-style: italic;
+	src: url("fonts/NimbusRoman-BoldItalic.woff2") format("woff2");
+}
+@font-face {
+	font-family: "Nimbus Roman";
+	font-weight: normal;
+	font-style: italic;
+	src: url("fonts/NimbusRoman-Italic.woff2") format("woff2");
+}
+@font-face {
+	font-family: "Nimbus Roman";
+	font-weight: normal;
+	font-style: normal;
+	src: url("fonts/NimbusRoman-Regular.woff2") format("woff2");
+}
+
+
+/* Nimbus Sans */
+@font-face {
+	font-family: "Nimbus Sans";
+	font-weight: bold;
+	font-style: normal;
+	src: url("fonts/NimbusSans-Bold.woff2") format("woff2");
+}
+@font-face {
+	font-family: "Nimbus Sans";
+	font-weight: bold;
+	font-style: italic;
+	src: url("fonts/NimbusSans-BoldOblique.woff2") format("woff2");
+}
+@font-face {
+	font-family: "Nimbus Sans";
+	font-weight: normal;
+	font-style: italic;
+	src: url("fonts/NimbusSans-Oblique.woff2") format("woff2");
+}
+@font-face {
+	font-family: "Nimbus Sans";
+	font-weight: normal;
+	font-style: normal;
+	src: url("fonts/NimbusSans-Regular.woff2") format("woff2");
+}
+
+
+/* Nimbus Sans Narrow */
+@font-face {
+	font-family: "Nimbus Sans Narrow";
+	font-weight: bold;
+	font-style: oblique;
+	src: url("fonts/NimbusSansNarrow-BdOblique.woff2") format("woff2");
+}
+@font-face {
+	font-family: "Nimbus Sans Narrow";
+	font-weight: bold;
+	font-style: normal;
+	src: url("fonts/NimbusSansNarrow-Bold.woff2") format("woff2");
+}
+@font-face {
+	font-family: "Nimbus Sans Narrow";
+	font-weight: normal;
+	font-style: oblique;
+	src: url("fonts/NimbusSansNarrow-Oblique.woff2") format("woff2");
+}
+@font-face {
+	font-family: "Nimbus Sans Narrow";
+	font-weight: normal;
+	font-style: normal;
+	src: url("fonts/NimbusSansNarrow-Regular.woff2") format("woff2");
+}
+
+
+/* P052 */
+@font-face {
+	font-family: P052;
+	font-weight: bold;
+	font-style: normal;
+	src: url("fonts/P052-Bold.woff2") format("woff2");
+}
+@font-face {
+	font-family: P052;
+	font-weight: bold;
+	font-style: italic;
+	src: url("fonts/P052-BoldItalic.woff2") format("woff2");
+}
+@font-face {
+	font-family: P052;
+	font-weight: normal;
+	font-style: italic;
+	src: url("fonts/P052-Italic.woff2") format("woff2");
+}
+@font-face {
+	font-family: P052;
+	font-weight: normal;
+	font-style: normal;
+	src: url("fonts/P052-Roman.woff2") format("woff2");
+}
+
+
+/* Standard Symbols PS */
+@font-face {
+	font-family: "Standard Symbols PS";
+	font-weight: normal;
+	font-style: normal;
+	src: url("fonts/StandardSymbolsPS.woff2") format("woff2");
+}
+
+
+/* URW Bookman */
+@font-face {
+	font-family: "URW Bookman";
+	font-weight: 600;
+	font-style: normal;
+	src: url("fonts/URWBookman-Demi.woff2") format("woff2");
+}
+@font-face {
+	font-family: "URW Bookman";
+	font-weight: 600;
+	font-style: italic;
+	src: url("fonts/URWBookman-DemiItalic.woff2") format("woff2");
+}
+@font-face {
+	font-family: "URW Bookman";
+	font-weight: 300;
+	font-style: normal;
+	src: url("fonts/URWBookman-Light.woff2") format("woff2");
+}
+@font-face {
+	font-family: "URW Bookman";
+	font-weight: 300;
+	font-style: italic;
+	src: url("fonts/URWBookman-LightItalic.woff2") format("woff2");
+}
+
+
+/* URW Gothic */
+@font-face {
+	font-family: "URW Gothic";
+	font-weight: normal;
+	font-style: normal;
+	src: url("fonts/URWGothic-Book.woff2") format("woff2");
+}
+@font-face {
+	font-family: "URW Gothic";
+	font-weight: normal;
+	font-style: oblique;
+	src: url("fonts/URWGothic-BookOblique.woff2") format("woff2");
+}
+@font-face {
+	font-family: "URW Gothic";
+	font-weight: 600;
+	font-style: normal;
+	src: url("fonts/URWGothic-Demi.woff2") format("woff2");
+}
+@font-face {
+	font-family: "URW Gothic";
+	font-weight: 600;
+	font-style: oblique;
+	src: url("fonts/URWGothic-DemiOblique.woff2") format("woff2");
+}
+
+
+/* Z003 */
+@font-face {
+	font-family: Z003;
+	font-weight: 500;
+	font-style: italic;
+	src: url("fonts/Z003-MediumItalic.woff2") format("woff2");
+}

@@ -1,6 +1,6 @@
 {
 	"name": "urw-core35-fonts",
-	"version": "v0.0.0",
+	"version": "v1.0.0",
 	"license": "AGPL-3.0",
 	"main": "./package.json",
 	"repository": "https://github.com/Alhadis/URW-Core35-Fonts",

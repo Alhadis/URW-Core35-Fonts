@@ -1,12 +1,15 @@
 URW++ GhostScript Fonts
 =======================
 
-These are WOFF2 versions of [fonts][] included with every [Ghostscript][] installation.
+These are WOFF2 versions of [fonts](https://en.wikipedia.org/wiki/Ghostscript#Free_fonts)
+included with every [Ghostscript](https://www.ghostscript.com/) installation.
 The typefaces were originally created for Artifex Software by German typeface foundry
-[URW++][], who subsequently released them under the [GNU Affero General Public License][AGPL].
+[URW++](https://www.urwpp.de/), who subsequently released them under the
+[GNU Affero General Public License](https://www.gnu.org/licenses/agpl.html).
 
-Source files for the Core35 fonts are available from [`git.ghostscript.com/urw-core35-fonts.git`][src],
-where they are available in four different formats: AFM, OpenType, Type1, and TrueType.
+Source files for the Core35 fonts are available from
+[`git.ghostscript.com/urw-core35-fonts.git`](http://git.ghostscript.com/?p=urw-core35-fonts.git;a=summary),
+where they remain available in four different formats: AFM, OpenType, Type1, and TrueType.
 
 
 
@@ -19,7 +22,9 @@ npm install urw-core35-fonts
 ~~~
 
 __Take note:__  
-There's no JavaScript in this module. The package's "entry point" [is its main stylesheet][`index.css`], which holds `@font-face` rules for each bundled font-family and variation thereof:
+There's no JavaScript in this module.
+The package's "entry point" is its main stylesheet, [`index.css`](./index.css),
+which holds `@font-face` rules for each bundled font-family and variation thereof:
 
 	node_modules
 	    └── urw-core35-fonts
@@ -49,17 +54,7 @@ console.log(cssPath) => "/foo/node_modules/urw-core35-fonts/index.css";
 
 
 License
--------------------------------------------------------------------------------------
-These fonts are released under the [GNU Affero General Public License v3.0][AGPL].
-Verbatim copies of the Ghostscript project's licensing info are included with these
-files; see [`COPYING`](COPYING) and [`LICENSE`](LICENSE).
-
-
-[Referenced Links]:__________________________________________________________________
-[`fonts`]:           ./fonts/
-[`index.css`]:       ./index.css
-[Ghostscript]:       https://www.ghostscript.com/
-[AGPL]:              https://www.gnu.org/licenses/agpl.html
-[URW++]:             https://www.urwpp.de/
-[src]:               http://git.ghostscript.com/?p=urw-core35-fonts.git;a=summary
-[fonts]:             https://en.wikipedia.org/wiki/Ghostscript#Free_fonts
+-------
+These fonts are released under the [GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl.html).
+Verbatim copies of the Ghostscript project's licensing info are included with this package;
+see [`COPYING`](COPYING) and [`LICENSE`](LICENSE).

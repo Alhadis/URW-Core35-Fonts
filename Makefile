@@ -39,7 +39,6 @@ clean:
 .PHONY: clean
 
 # Pull any updates from URW++/GhostScript sources, regenerating files if needed
-# - NOTE(2017-06-17): This hasn't yet been tested with an actual update; YMMV.
 update: update-submodules $(woff2-fonts) $(stylesheet)
 update-submodules:
 	@git submodule foreach git pull origin master

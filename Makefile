@@ -40,9 +40,10 @@ clean:
 
 # Delete WOFF2 files without a corresponding TTF file
 prune: $(submodule)
+	@status="Pruned: %s%s%s\\n"; \
 	for file in $(wildcard fonts/*.woff2); do \
 		ttf=$$(echo $$file | sed 's/^fonts/source/g; s/\.woff2/\.ttf/g;'); \
-		[ -f "$$ttf" ] || rm "$$file"; \
+		[ -f "$$ttf" ] || { rm "$$file"; printf "$$status" $(SGR_URL) $$file $(SGR_OFF); } \
 	done
 .PHONY: prune
 

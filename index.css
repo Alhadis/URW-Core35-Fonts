@@ -99,13 +99,13 @@
 	font-family: "Nimbus Sans";
 	font-weight: bold;
 	font-style: italic;
-	src: url("fonts/NimbusSans-BoldOblique.woff2") format("woff2");
+	src: url("fonts/NimbusSans-BoldItalic.woff2") format("woff2");
 }
 @font-face {
 	font-family: "Nimbus Sans";
 	font-weight: normal;
 	font-style: italic;
-	src: url("fonts/NimbusSans-Oblique.woff2") format("woff2");
+	src: url("fonts/NimbusSans-Italic.woff2") format("woff2");
 }
 @font-face {
 	font-family: "Nimbus Sans";

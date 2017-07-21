@@ -39,7 +39,7 @@ clean:
 .PHONY: clean
 
 # Pull any updates from URW++/GhostScript sources, regenerating files if needed
-update: update-submodules $(woff2-fonts) $(stylesheet)
+update: update-submodules clean $(woff2-fonts) $(stylesheet)
 update-submodules:
 	@git submodule foreach git pull origin master
 .PHONY: update update-submodules

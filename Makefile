@@ -5,8 +5,8 @@ SGR_UL      := $(shell printf \\x1B[4m)
 stylesheet  := index.css
 preview-doc := preview.html
 submodule   := source/.git
-ttf-fonts   := $(shell find source -type f -name '*.ttf')
-woff2-fonts := $(addprefix fonts/,$(patsubst %.ttf,%.woff2,$(notdir $(ttf-fonts))))
+ttf-fonts    = $(shell find source -type f -name '*.ttf')
+woff2-fonts  = $(addprefix fonts/,$(patsubst %.ttf,%.woff2,$(notdir $(ttf-fonts))))
 
 all: $(woff2-fonts) $(stylesheet)
 

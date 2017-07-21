@@ -38,8 +38,16 @@ clean:
 	@(cd source; git checkout -- . && git clean -fd)
 .PHONY: clean
 
+# Delete WOFF2 files without a corresponding TTF file
+prune: $(submodule)
+	for file in $(wildcard fonts/*.woff2); do \
+		ttf=$$(echo $$file | sed 's/^fonts/source/g; s/\.woff2/\.ttf/g;'); \
+		[ -f "$$ttf" ] || rm "$$file"; \
+	done
+.PHONY: prune
+
 # Pull any updates from URW++/GhostScript sources, regenerating files if needed
-update: update-submodules clean $(woff2-fonts) $(stylesheet)
+update: update-submodules prune $(woff2-fonts) $(stylesheet)
 update-submodules:
 	@git submodule foreach git pull origin master
 .PHONY: update update-submodules

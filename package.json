@@ -5,8 +5,8 @@
 	"main": "./package.json",
 	"repository": "https://github.com/Alhadis/URW-Core35-Fonts",
 	"description": "URW++ GhostScript fonts in WOFF2 format.",
-	"keywords": ["PostScript", "GhostScript", "Fonts", "Typefaces", "PDF", "Typography", "Webfonts", "Adobe"],
-	"files": ["fonts", "index.css", "COPYING"],
+	"keywords": ["PostScript", "GhostScript", "Fonts", "Typefaces", "PDF", "Typography", "Webfonts", "Adobe", "Metrics"],
+	"files": ["fonts", "metrics", "index.css", "COPYING"],
 	"author": {
 		"name":  "URW++ Design & Development GmbH",
 		"email": "info@urwpp.de",
